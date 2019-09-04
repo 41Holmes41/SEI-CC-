@@ -12,3 +12,20 @@
 #      etc.
 
 # Hint: The next number is found by adding the two numbers before it
+total=0
+previous1=0
+previous2=0
+
+for num in range(50):
+    if num==0:
+      print(f"term: {num} / number: {total}")
+      
+    elif num==1:
+      total += 1
+      print(f"term: {num} / number: {total}")
+      previous2=1
+    else:
+      total = previous1 + previous2
+      print(f"term: {num} / number: {total}")
+      previous1 = previous2
+      previous2 = total
