@@ -44,12 +44,12 @@ if month in ('jun'):
 
 if month in ('Sep'):
   if day >= 22:
-    print(f"{month} {day} is in Summer")
+    print(f"{month} {day} is in Fall")
 if month in ('Oct','Nov'):
-    print(f"{month} {day} is in Summer")
+    print(f"{month} {day} is in Fall")
 if month in ('Dec'):
   if day <= 20:
-    print(f"{month} {day} is in Summer")
+    print(f"{month} {day} is in Fall")
 
 if month in ('Sep'):
   if day >= 21:
